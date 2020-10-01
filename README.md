@@ -14,3 +14,10 @@
 * GeoSpatial
 
 ***
+### ACID 
+### Vertical Scaling vs Horizontal Scaling
+### Sql Vs NoSql
+***
+## Installing Redis on Widnows 
+- Redis Project Doesn't officially Support windows, however microsoft integrated give alternative
+- [Click Here to download Redis for windows](https://github.com/ServiceStack/redis-windows/tree/master/downloads)
