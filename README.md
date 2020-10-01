@@ -1,5 +1,4 @@
-# Redis-spring-learn
-
+## Redis-spring-learn
 - Redis is powerful open source , noSql , inMemory Database.
 - Store Data in key-value format
 - Master Slave Replication
@@ -25,3 +24,5 @@
 - [To Learn Redis Cloud Please click here and Register to get free redis cloud access](https://app.redislabs.com/#/login)
 - [To access redis using GUI tool click here](https://docs.redisdesktop.com/en/latest/install/)
 
+### Redis Data Types [To Know more click here to see documentation](https://redis.io/topics/data-types)
+### Redis Commands [Click Here and Select Group to know all available command and there description](https://redis.io/commands)
