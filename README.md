@@ -22,5 +22,6 @@
 - [Click Here to download Redis for windows](https://github.com/ServiceStack/redis-windows/tree/master/downloads)
 - Extract Zip File And Execute **redis-server** and **redis-cli**
 - [For How to download Redis for Mac/Linux click here](https://redis.io/download)
-
+- [To Learn Redis Cloud Please click here and Register to get free redis cloud access](https://app.redislabs.com/#/login)
+- [To access redis using GUI tool click here](https://docs.redisdesktop.com/en/latest/install/)
 
