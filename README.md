@@ -153,3 +153,4 @@
 - The reason for **Data Sharding** is that, After a certain point, it is cheaper and more attainable to scale **horizontally** by adding more machines than to grow **vertically**.
 
 ***
+### [Redis Transaction](https://redis.io/topics/transactions) allows multiple query executed in single transaction.
