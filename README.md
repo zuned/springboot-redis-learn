@@ -138,3 +138,11 @@
 3. Hybrid (RDB & AOF)
 
 ***
+#### Redis Back command -> save [ this will create dump file]
+
+#### [Redis Sentinal](https://redis.io/topics/sentinel) -> The primary purpose of sentinel is **High Availability** by providing Monitoring / Notifying / Instance Failover.
+- On Master Failure, Sentinel promotes one of the slaves to the master then make the additional slave.
+- Sentinel Act as a source of Authority for clients. Clients connect with sentinel to ask the address of the current master
+- Redis Sentinel is the specific execution mode of the Redis server
+- **Redis Client** must have sentinel support
+![redis sentinel architechture](https://github.com/zuned/redis-spring-learn/blob/main/Sentinel%20Architechture.jpg)
