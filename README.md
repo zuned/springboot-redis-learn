@@ -154,3 +154,34 @@
 
 ***
 ### [Redis Transaction](https://redis.io/topics/transactions) allows multiple query executed in single transaction.
+
+### [Redis Pub/Sub](https://redis.io/topics/pubsub)
+**Subscriber 1 - with pattern**
+	C:\Users\zuned.ahmed>redis-cli
+	127.0.0.1:6379> psubscribe weath*
+	Reading messages... (press Ctrl-C to quit)
+	1) "psubscribe"
+	2) "weath*"
+	3) (integer) 1
+	1) "pmessage"
+	2) "weath*"
+	3) "weather"
+	4) "Welcome to Weather Channel"
+
+**Subscriber 2**
+	C:\Users\zuned.ahmed>redis-cli
+	127.0.0.1:6379> subscribe weather
+	Reading messages... (press Ctrl-C to quit)
+	1) "subscribe"
+	2) "weather"
+	3) (integer) 1
+	1) "message"
+	2) "weather"
+	3) "Welcome to Weather Channel"
+
+**Publisher**
+	C:\Users\zuned.ahmed>redis-cli
+	127.0.0.1:6379> publish weather "Welcome to Weather Channel"
+
+
+
