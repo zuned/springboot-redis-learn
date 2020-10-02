@@ -148,7 +148,7 @@
 ![redis sentinel architechture](https://github.com/zuned/redis-spring-learn/blob/main/Sentinel%20Architechture.jpg)
 
 ***
-### Redis Cluster: is data sharding solution which automatically manages failover and replication
+### [Redis Cluster](https://redis.io/topics/cluster-tutorial): is data sharding solution which automatically manages failover and replication
 - **Data Sharding** is the method to break up Big Database(DB) into the many smaller parts. It is done for Manageability, Availability, Performance, and load balancing of application. 
 - The reason for **Data Sharding** is that, After a certain point, it is cheaper and more attainable to scale **horizontally** by adding more machines than to grow **vertically**.
 
