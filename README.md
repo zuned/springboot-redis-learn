@@ -34,3 +34,5 @@
 - TTL is used to specify time to live 
 - Exist command is used to see if key exists or not
 - OtherCommands [append , strlen , incr , incrby , decr , decrby , mget , mset ]
+- List Other Commands [ lrange , rpop , lpop , lpush ]
+
