@@ -29,3 +29,7 @@
 
 - [Command to Get All the Keys using patterns](https://redis.io/commands/keys)
 
+- to update key Only if key exist use additional parameter **XX**
+- to add key Only if key does not exist use additional parameter **NX**
+- TTL is used to specify time to live 
+- Exist command is used to see if key exists or not
