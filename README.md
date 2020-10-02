@@ -183,5 +183,11 @@
 	
 	127.0.0.1:6379> publish weather "Welcome to Weather Channel"
 
+***
+### Preffered Redis Java Client
+- [Jedis: small lightweight extremely fast client library for redis java](https://github.com/xetorthio/jedis)
+- [Lettuce: Advanced Redis client for thread-safe sync, async, and reactive usage. Supports Cluster, Sentinel, Pipelining, and codecs](https://github.com/lettuce-io/lettuce-core)
+- [Redission: distributed and scalable Java data structures on top of Redis server](https://github.com/redisson/redisson)
 
+***
 
