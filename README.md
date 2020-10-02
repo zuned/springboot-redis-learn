@@ -132,3 +132,9 @@
 	127.0.0.1:6379>
 
 ***
+### [Redis Persistence](https://redis.io/topics/persistence) 
+1. RDB (Redis Database File) - make the snapshot of data with a specific time interval [redis fork child process which then makes the temporary RDB file, once the child process finishes the writing process, it replace the new file]
+2. AOF (Append Only File) - Logs Each Write Operation receive by the server
+3. Hybrid (RDB & AOF)
+
+***
