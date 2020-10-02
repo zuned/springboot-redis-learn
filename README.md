@@ -26,3 +26,6 @@
 
 ### Redis Data Types [To Know more click here to see documentation](https://redis.io/topics/data-types)
 ### Redis Commands [Click Here and Select Group to know all available command and there description](https://redis.io/commands)
+
+- [Command to Get All the Keys using patterns](https://redis.io/commands/keys)
+
