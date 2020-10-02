@@ -157,7 +157,7 @@
 
 ### [Redis Pub/Sub](https://redis.io/topics/pubsub)
 **Subscriber 1 - with pattern** 
-	C:\Users\zuned.ahmed>redis-cli
+	
 	127.0.0.1:6379> psubscribe weath*
 	Reading messages... (press Ctrl-C to quit)
 	1) "psubscribe"
@@ -169,7 +169,7 @@
 	4) "Welcome to Weather Channel"
 
 **Subscriber 2**
-	C:\Users\zuned.ahmed>redis-cli
+	
 	127.0.0.1:6379> subscribe weather
 	Reading messages... (press Ctrl-C to quit)
 	1) "subscribe"
@@ -180,7 +180,7 @@
 	3) "Welcome to Weather Channel"
 
 **Publisher**
-	C:\Users\zuned.ahmed>redis-cli
+	
 	127.0.0.1:6379> publish weather "Welcome to Weather Channel"
 
 
