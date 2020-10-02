@@ -156,7 +156,7 @@
 ### [Redis Transaction](https://redis.io/topics/transactions) allows multiple query executed in single transaction.
 
 ### [Redis Pub/Sub](https://redis.io/topics/pubsub)
-**Subscriber 1 - with pattern**
+**Subscriber 1 - with pattern** 
 	C:\Users\zuned.ahmed>redis-cli
 	127.0.0.1:6379> psubscribe weath*
 	Reading messages... (press Ctrl-C to quit)
