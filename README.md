@@ -190,4 +190,4 @@
 - [Redission: distributed and scalable Java data structures on top of Redis server](https://github.com/redisson/redisson)
 
 ***
-
+- To Monitor redis cache open terminal with redis-cli and type **Monitor** , it will start monitoring the cache
