@@ -75,11 +75,12 @@ public class ProgrammerController {
         return this.programmerService.findAllHash();
     }
     @GetMapping("/programmer-hash/{id}")
-    public @ResponseBody Programmer findInHash(@PathVariable int id) {
-        return this.programmerService.findInHash(id);
+    public @ResponseBody Programmer findInHash(@PathVariable Long id) {
+        Programmer programmer =  this.programmerService.findInHash(id);
+        return programmer;
     }
     @DeleteMapping("/programmer-hash/{id}")
-    public void deleteHash(@PathVariable int id) {
+    public void deleteHash(@PathVariable Long id) {
         this.programmerService.deleteHash(id);
     }
 

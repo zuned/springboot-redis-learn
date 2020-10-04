@@ -72,12 +72,12 @@ public class ProgrammerServiceImpl implements ProgrammerService {
     }
 
     @Override
-    public Programmer findInHash(int id) {
+    public Programmer findInHash(Long id) {
         return this.programmerRepository.findInHash(id);
     }
 
     @Override
-    public void deleteHash(int id) {
+    public void deleteHash(Long id) {
         this.programmerRepository.deleteHash(id);
     }
 

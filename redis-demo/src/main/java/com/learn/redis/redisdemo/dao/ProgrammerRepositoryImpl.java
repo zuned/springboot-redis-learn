@@ -89,12 +89,12 @@ public class ProgrammerRepositoryImpl implements  ProgrammerRepository {
     }
 
     @Override
-    public Programmer findInHash(int id) {
+    public Programmer findInHash(Long id) {
         return this.hashOperations.get(REDIS_HASH_KEY,id);
     }
 
     @Override
-    public void deleteHash(int id) {
+    public void deleteHash(Long id) {
         this.hashOperations.delete(REDIS_HASH_KEY ,id);
     }
 

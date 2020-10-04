@@ -24,6 +24,6 @@ public interface ProgrammerService {
     void saveHash(Programmer programmer);
     void updateHash(Programmer programmer);
     Map<Long,Programmer> findAllHash();
-    Programmer findInHash(int id);
-    void deleteHash(int id);
+    Programmer findInHash(Long id);
+    void deleteHash(Long id);
 }
