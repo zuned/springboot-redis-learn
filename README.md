@@ -1,3 +1,5 @@
+**Redis** is an open source, in-memory data structure storage system that can be used as: database, cache, and messaging middleware.
+
 ## [Spring Data Redis Documentation](https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#why-spring-redis)
 - Redis is powerful open source , noSql , inMemory Database.
 - Store Data in key-value format
