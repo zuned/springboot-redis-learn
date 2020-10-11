@@ -193,8 +193,8 @@
 - To Monitor redis cache open terminal with redis-cli and type **Monitor** , it will start monitoring the cache
 
 ## Important Cachce Topics
-- what is the **two-eighth law**
-- what is "hot data and cold data". 
+- what is the **two-eighth law**?
+- what is **hot data and cold data**? 
 - **cache avalanche**
 - **cache penetration**
 - **cache warming**
