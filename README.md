@@ -1,4 +1,6 @@
-## Redis-spring-learn
+**Redis** is an open source, in-memory data structure storage system that can be used as: database, cache, and messaging middleware.
+
+## [Spring Data Redis Documentation](https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#why-spring-redis)
 - Redis is powerful open source , noSql , inMemory Database.
 - Store Data in key-value format
 - Master Slave Replication
@@ -191,3 +193,12 @@
 
 ***
 - To Monitor redis cache open terminal with redis-cli and type **Monitor** , it will start monitoring the cache
+
+## Important Cachce Topics
+- what is the **two-eighth law**?
+- what is **hot data and cold data**? 
+- **cache avalanche**
+- **cache penetration**
+- **cache warming**
+- **cache update**
+- **cache downgrade**
