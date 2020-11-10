@@ -10,3 +10,4 @@ See: http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/GettingStarte
 
 Since we have TLS enable so we have to create tunnel to connect with server our secure channel https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/in-transit-encryption.html#connect-tls
 
+once done we are able connect to awselastic cache using [redis-demo](https://github.com/zuned/springboot-redis-learn/tree/main/springboot-redis-jedis)
