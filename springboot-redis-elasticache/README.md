@@ -7,3 +7,6 @@ SSH into your EC2 instance. Run the following:
 `$ wget http://download.redis.io/redis-stable.tar.gz && tar xvzf redis-stable.tar.gz && cd redis-stable && make `
 
 See: http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/GettingStarted.ConnectToCacheNode.Redis.html
+
+Since we have TLS enable so we have to create tunnel to connect with server our secure channel https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/in-transit-encryption.html#connect-tls
+
