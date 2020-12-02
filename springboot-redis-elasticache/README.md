@@ -21,4 +21,4 @@ once done we are able connect to awselastic cache using [redis-demo](https://git
     redis.jedis.pool.max-idle=8
     redis.jedis.pool.min-idle=4
 
-To monitor the cache on aws> redis-cli -h localhost -p 6379 -a '<PassowrdIfAny>'
+To monitor the cache on aws> redis-cli -h localhost -p 6379 -a 'PassowrdIfAny'
