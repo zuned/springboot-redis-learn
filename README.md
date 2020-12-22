@@ -202,3 +202,13 @@
 - **cache warming**
 - **cache update**
 - **cache downgrade**
+
+### how to check memory Consumed by key
+	localhost:6379> MEMORY USAGE ECA
+	(integer) 48955
+	localhost:6379> MEMORY USAGE EXCHANGE_CONFIG_ATTR
+	(integer) 46911
+	
+### how to clear all cache 
+	localhost:6379> fushall
+
