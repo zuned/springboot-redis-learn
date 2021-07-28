@@ -1,0 +1,7 @@
+** These are my experiences while working with elasticache.
+
+** TLS enable - is add over head 
+** We should use connection pool - to connect with Redis
+** tunnelling only used for the purpose of debug and monitoring
+** When TLS enable we should connect directly to maskter node.
+** Redis is very fast but still it add's n/w overhead. If number of request increases then perfomance can decrease. To overcome at time client side caching can be done lazily.
